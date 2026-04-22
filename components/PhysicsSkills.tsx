@@ -15,7 +15,7 @@ export default function PhysicsSkills() {
 
   useEffect(() => {
     let engine: any, runner: any, render: any;
-    let animFrame: number;
+
 
     const init = async () => {
       const Matter = (await import("matter-js")).default;
@@ -125,7 +125,6 @@ export default function PhysicsSkills() {
         Matter.Engine.clear(engine);
         if (render.canvas?.parentNode) render.canvas.parentNode.removeChild(render.canvas);
       }
-      cancelAnimationFrame(animFrame);
     };
   }, []);
 
