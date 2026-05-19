@@ -9,7 +9,7 @@ const PROJECTS = [
     name: "Comainter",
     desc: "Comainter helps orgs scale by resolving repetitive developer questions, detecting common configuration errors, validating issue quality, and ensuring maintainers focus only on real engineering problems.",
     stack: ["Next.js", "fastApi", "Postgres", "Qdrant", "OpenAi"],
-    color: "76,255,176",
+    color: "124,109,250",
     link: "https://comainter.com",
   },
   {
